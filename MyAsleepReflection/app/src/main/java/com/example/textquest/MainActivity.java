@@ -2,6 +2,7 @@ package com.example.textquest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startButton.setBackgroundResource(R.drawable.startbtnonclick);
+                try {
+                    Intent intent = new Intent(MainActivity.this, OneLevel.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
     }
