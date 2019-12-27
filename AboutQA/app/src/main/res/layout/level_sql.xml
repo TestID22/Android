@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"><![CDATA[
+
+    />
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/level_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/levels_background"
+        android:scaleType="centerCrop"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_back_from_level_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/btn_stroke_press_border_blue"
+                android:fontFamily="@font/swfont"
+                android:paddingBottom="10px"
+                android:text="back"
+                android:textColor="@color/yellow"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_btn_stroke_yellow"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/qa_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Обеспечение качества (quality Assurance - qA)"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/qa_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QA"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/QA_2"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/style_btn_stroke_yellow"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/qc_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Контроль качества (quality Control - qC)"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/qc_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/QC"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_btn_stroke_yellow"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/st_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Тестирование программного обеспечения (Software Testing)"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/st_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ST"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_btn_stroke_yellow"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/sq_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Качество программного обеспечения (Software quality)"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/sq_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SQ"
+                    android:textAlignment="center"
+                    android:textColor="@color/yellow"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
