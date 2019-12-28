@@ -50,6 +50,23 @@ public class Levels extends AppCompatActivity {
             }
         });
         //Кнопка выбора перовго уровня - конец
+
+        //Кнопка выбора sql - начало
+        TextView level_sql = (TextView)findViewById(R.id.sql);
+        level_sql.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, Level_sql.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+        //Кнопка выбора sql - конец
+
     }
     //Системная кнопка назад
     @Override

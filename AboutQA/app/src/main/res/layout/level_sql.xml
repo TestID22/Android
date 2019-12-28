@@ -54,7 +54,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Обеспечение качества (quality Assurance - qA)"
+                    android:text="SqL - зык структурированных запросов"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:textSize="14dp" />
@@ -63,7 +63,7 @@
                     android:id="@+id/qa_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/QA"
+                    android:text="@string/SQL"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:typeface="sans" />
@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:text="@string/QA_2"
+                    android:text="@string/SQL"
                     android:textAlignment="center"
                     android:textColor="@color/yellow" />
 
@@ -91,18 +91,18 @@
                     android:id="@+id/qc_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/swfont"
-                    android:text="Контроль качества (quality Control - qC)"
+                    android:fontFamily="@font/swfontcirylic"
+                    android:text="База Данных(Data Base)"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
-                    android:textSize="14dp" />
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/qc_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
-                    android:text="@string/QC"
+                    android:text="@string/DataBase"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
                     android:textSize="14dp" />
@@ -121,19 +121,20 @@
                     android:id="@+id/st_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/swfont"
-                    android:text="Тестирование программного обеспечения (Software Testing)"
+                    android:fontFamily="@font/swfontcirylic"
+                    android:text="Создание Базы Данных"
                     android:textAlignment="center"
                     android:textColor="@color/yellow"
-                    android:textSize="14dp" />
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/st_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ST"
+                    android:text="@string/CreateDataBase"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
+                    android:textColor="@color/lightbluemenu"
                     android:textSize="14dp" />
             </LinearLayout>
 

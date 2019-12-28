@@ -5,17 +5,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Level_1 extends AppCompatActivity {
+public class Level_sql extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.level_1);
+        setContentView(R.layout.level_sql);
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -24,7 +23,7 @@ public class Level_1 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Level_1.this, Levels.class);
+                Intent intent = new Intent(Level_sql.this, Levels.class);
                 startActivity(intent);
                 finish();
             }
@@ -33,7 +32,7 @@ public class Level_1 extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         try{
-            Intent intent = new Intent(Level_1.this, Levels.class);
+            Intent intent = new Intent(Level_sql.this, Levels.class);
             startActivity(intent);
             finish();
         }catch (Exception e){

@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/levels_background" />
+        app:srcCompat="@drawable/levels_background_test" />
 
     <LinearLayout
         android:id="@+id/container1"
@@ -60,7 +60,8 @@
                         android:id="@+id/line1"
                         android:layout_width="wrap_content"
                         android:layout_height="74dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        >
 
                         <TextView
                             android:id="@+id/textViewBasics"
@@ -197,7 +198,7 @@
                         android:layout_gravity="center">
 
                         <TextView
-                            android:id="@+id/textView26"
+                            android:id="@+id/sql"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginRight="10dp"
@@ -206,7 +207,7 @@
                             android:fontFamily="@font/swfont"
                             android:gravity="center"
                             android:paddingBottom="6px"
-                            android:text="5.SqL JAvA and etc."
+                            android:text="5.SqL"
                             android:textColor="@color/yellow"
                             android:textSize="24dp"
                             android:textStyle="bold" />
