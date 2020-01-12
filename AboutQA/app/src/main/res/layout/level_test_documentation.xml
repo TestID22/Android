@@ -14,7 +14,7 @@
         android:id="@+id/level_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/levels_background"
+        app:srcCompat="@drawable/background_level_test_documentation"
         android:scaleType="centerCrop"/>
 
     <ScrollView
@@ -45,37 +45,30 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/style_btn_stroke_yellow"
+                android:background="@drawable/style_btn_blue_levels"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/qa_title"
+                    android:id="@+id/test_doc_title"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/swfont"
-                    android:text="SqL - зык структурированных запросов"
+                    android:layout_height="29dp"
+                    android:fontFamily="@font/swfontcirylic"
+                    android:text="Тестовые Артефакты"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
-                    android:textSize="14dp" />
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="18dp" />
 
                 <TextView
                     android:id="@+id/qa_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/SQL"
+                    android:text="@string/test_documentation"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
+                    android:textColor="@color/dark_blue_level_1"
                     android:typeface="sans" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:text="@string/SQL"
-                    android:textAlignment="center"
-                    android:textColor="@color/yellow" />
+
 
             </LinearLayout>
 
@@ -83,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:background="@drawable/style_btn_stroke_yellow"
+                android:background="@drawable/style_btn_blue_levels"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -91,20 +84,20 @@
                     android:id="@+id/qc_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/swfontcirylic"
-                    android:text="База Данных(Data Base)"
+                    android:fontFamily="@font/swfont"
+                    android:text="Tест план"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
-                    android:textSize="14dp"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
 
                 <TextView
-                    android:id="@+id/qc_text"
+                    android:id="@+id/test_plan_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/DataBase"
+
+                    android:text="@string/test_plan"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
+                    android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
             </LinearLayout>
 
@@ -113,28 +106,27 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/style_btn_stroke_yellow"
+                android:background="@drawable/style_btn_blue_levels"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/st_title"
+                    android:id="@+id/test_case_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/swfontcirylic"
-                    android:text="Создание Базы Данных"
+                    android:fontFamily="@font/swfont"
+                    android:text="Тест Кейс"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
-                    android:textSize="14dp"
-                    android:textStyle="bold"/>
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
 
                 <TextView
                     android:id="@+id/st_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/CreateDataBase"
+                    android:text="@string/test_case"
                     android:textAlignment="center"
-                    android:textColor="@color/lightbluemenu"
+                    android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
             </LinearLayout>
 
@@ -144,7 +136,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/style_btn_stroke_yellow"
+                android:background="@drawable/style_btn_blue_levels"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -153,22 +145,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Изменения Столбцов БАЗЫ ДАННЫЙх"
+                    android:text="Баг Репорт"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
+                    android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
 
                 <TextView
                     android:id="@+id/sq_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/SQL"
+                    android:text="@string/bug_report"
                     android:textAlignment="center"
-                    android:textColor="@color/yellow"
+                    android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
             </LinearLayout>
-
-
 
 
         </LinearLayout>

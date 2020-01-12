@@ -122,17 +122,17 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/textViewSWLC"
+                            android:id="@+id/testDocumentation"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
-                            android:padding="6dp"
                             android:background="@drawable/btn_stroke_press_border_blue"
                             android:fontFamily="@font/swfontcirylic"
                             android:gravity="center"
+                            android:padding="6dp"
                             android:paddingBottom="6px"
-                            android:text="2.Методологии тестирования"
+                            android:text="2.Teстовая документация.              Тест артефакты"
                             android:textColor="@color/yellow"
                             android:textSize="22dp"
                             android:textStyle="bold" />
@@ -203,7 +203,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginRight="10dp"
                             android:layout_marginLeft="10dp"
-                            android:background="@drawable/style_btn_stroke_yellow"
+                            android:background="@drawable/btn_stroke_press_border_blue"
                             android:fontFamily="@font/swfont"
                             android:gravity="center"
                             android:paddingBottom="6px"

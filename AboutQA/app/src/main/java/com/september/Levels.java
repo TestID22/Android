@@ -49,6 +49,7 @@ public class Levels extends AppCompatActivity {
                 }
             }
         });
+
         //Кнопка выбора перовго уровня - конец
 
         //Кнопка выбора sql - начало
@@ -65,7 +66,24 @@ public class Levels extends AppCompatActivity {
                 }
             }
         });
-        //Кнопка выбора sql - конец
+
+
+        //Кнопка выбора тестовая документация - начало
+        TextView level_testDocumentation = (TextView)findViewById(R.id.testDocumentation);
+        level_testDocumentation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, Level_test_Documentation.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+        //Кнопка выбора тест - документация - конец
+
 
     }
     //Системная кнопка назад
