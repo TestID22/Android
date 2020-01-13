@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"><![CDATA[
-
-    />
-
-    ]]>
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/level_1"
@@ -39,6 +35,7 @@
                 android:textColor="@color/yellow"
                 android:textSize="17sp" />
 
+            <!-- QA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -78,7 +75,7 @@
                     android:textColor="@color/dark_blue_level_1" />
 
             </LinearLayout>
-
+            <!--  QC  -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -107,7 +104,7 @@
                     android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
             </LinearLayout>
-
+            <!-- Sofrware testing -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -136,7 +133,7 @@
                     android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
             </LinearLayout>
-
+            <!-- Sofrware quality  Качество программного о-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -166,7 +163,7 @@
                     android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
             </LinearLayout>
-
+            <!--Баг-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -182,7 +179,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Определение Bug"
+                    android:text="Баг / Дефект"
                     android:textAlignment="center"
                     android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />
@@ -192,6 +189,131 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/bug"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--Верификация-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_btn_blue_levels"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/veriviction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Верификация"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/verification_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verification_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--Валидация-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_btn_blue_levels"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/validation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Валидация"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/validation_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/validation_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--Other -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_btn_blue_levels"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/othe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Встречается и такое..."
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/other"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verivication_validation_other"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <!--Цели Тестирования-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_btn_blue_levels"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_marginBottom="15dp"
+                >
+
+
+                <TextView
+                    android:id="@+id/testing_goals"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Цели тестирования"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_level_1"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/testing_goals_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tg_text"
                     android:textAlignment="center"
                     android:textColor="@color/dark_blue_level_1"
                     android:textSize="14dp" />

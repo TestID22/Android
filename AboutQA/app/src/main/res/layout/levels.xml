@@ -157,7 +157,7 @@
                             android:fontFamily="@font/swfontcirylic"
                             android:gravity="center"
                             android:paddingBottom="6px"
-                            android:text="3.Тестовая документация"
+                            android:text="3.Модели разаботки ПО (SDM)"
                             android:textColor="@color/yellow"
                             android:textSize="24dp"
                             android:textStyle="bold" />
