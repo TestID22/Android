@@ -82,8 +82,21 @@ public class Levels extends AppCompatActivity {
                 }
             }
         });
-        //Кнопка выбора тест - документация - конец
 
+        //Кнопка выбора тест - документация - конец
+        TextView level_sdm = (TextView)findViewById(R.id.level_sdm);
+        level_sdm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, level_sdm.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
 
     }
 
