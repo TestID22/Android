@@ -182,7 +182,7 @@
                             android:fontFamily="@font/swfontcirylic"
                             android:gravity="center"
                             android:paddingBottom="6px"
-                            android:text="4.***********************"
+                            android:text="4.Жизненный цикл Тестирования"
                             android:textColor="@color/yellow"
                             android:textSize="24dp"
                             android:textStyle="bold" />

@@ -98,6 +98,20 @@ public class Levels extends AppCompatActivity {
             }
         });
 
+        TextView level_testing_methodology = (TextView)findViewById(R.id.testing_methodology);
+        level_sdm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, level_sdm.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
     }
 
 

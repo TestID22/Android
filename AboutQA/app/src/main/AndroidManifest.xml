@@ -61,5 +61,12 @@
             </intent-filter>
         </activity>
 
+        <!--Экран Жизненный цикл Тестирования-->
+        <activity android:name=".Level_testinglc"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
