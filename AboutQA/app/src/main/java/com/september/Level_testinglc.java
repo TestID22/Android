@@ -17,7 +17,7 @@ public class Level_testinglc extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.level_testinglc);
+        setContentView(R.layout.level_3_testinglc);
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -25,6 +25,16 @@ public class Level_testinglc extends AppCompatActivity {
 
         TextView back = (TextView)findViewById(R.id.button_back_from_level_1);
         back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Level_testinglc.this, Levels.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        TextView back_2 = (TextView)findViewById(R.id.button_back_from_level_2);
+        back_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Level_testinglc.this, Levels.class);

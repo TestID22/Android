@@ -15,7 +15,7 @@ public class Levels extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.levels);
+        setContentView(R.layout.level_0_levels);
 
         //Убрать шапку приложения
         Window w = getWindow();
@@ -82,8 +82,9 @@ public class Levels extends AppCompatActivity {
                 }
             }
         });
-
         //Кнопка выбора тест - документация - конец
+
+        //модель разработки - начало
         TextView level_sdm = (TextView)findViewById(R.id.level_sdm);
         level_sdm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,13 +98,15 @@ public class Levels extends AppCompatActivity {
                 }
             }
         });
+        //модель разработки - конец
 
-        TextView level_testing_methodology = (TextView)findViewById(R.id.testing_methodology);
-        level_sdm.setOnClickListener(new View.OnClickListener() {
+        //testing life cycle - start
+        TextView level_lc = (TextView)findViewById(R.id.testing_lc);
+        level_lc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Levels.this, level_sdm.class);
+                    Intent intent = new Intent(Levels.this, Level_testinglc.class);
                     startActivity(intent);
                     finish();
                 }catch (Exception e){
@@ -111,6 +114,8 @@ public class Levels extends AppCompatActivity {
                 }
             }
         });
+        //testing lyfe cycle - end
+
 
     }
 

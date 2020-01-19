@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="35dp"
-                android:background="@drawable/btn_stroke_press_border_blue"
+                android:background="@drawable/btn_press_main_menu"
                 android:fontFamily="@font/swfont"
                 android:paddingBottom="10px"
                 android:text="back"

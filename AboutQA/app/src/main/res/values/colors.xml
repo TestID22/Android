@@ -4,11 +4,14 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="white">#A6FFFFFF</color>
-    <color name="red">#DF0808</color>
+    <color name="select_main_menu_white">#66FFFFFF</color>
+    <color name="red">#F80707</color>
     <color name="yellow">#FFC93C</color>
     <color name="light_yellow">#FFFB00</color>
-    <color name="lightbluemenu">#0FE6E6</color>
+    <color name="lightbluemenu">#0DD1D1</color>
     <color name="bluemenu">#9900A4FF</color>
-    <color name="dark_blue_level_1">#000D4D</color>
+    <color name="start">#6671BCE6</color>
+    <color name="back">#000000</color>
+    <color name="dark_blue_levels_borders">#000D4D</color>
 
 </resources>

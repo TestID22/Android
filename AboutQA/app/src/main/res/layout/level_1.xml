@@ -28,11 +28,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="35dp"
-                android:background="@drawable/btn_stroke_press_border_blue"
+                android:background="@drawable/btn_back"
                 android:fontFamily="@font/swfont"
                 android:paddingBottom="10px"
-                android:text="back"
-                android:textColor="@color/yellow"
+                android:text="Назад"
+                android:textColor="@color/bluemenu"
                 android:textSize="17sp" />
 
             <!-- QA -->
@@ -42,7 +42,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -53,7 +53,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Обеспечение качества (quality Assurance - qA)"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/QA"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:typeface="sans" />
 
                 <TextView
@@ -72,7 +72,7 @@
                     android:layout_marginTop="15dp"
                     android:text="@string/QA_2"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1" />
+                    android:textColor="@color/dark_blue_levels_borders" />
 
             </LinearLayout>
             <!--  QC  -->
@@ -80,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -91,7 +91,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Контроль качества (quality Control - qC)"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -101,7 +101,7 @@
 
                     android:text="@string/QC"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
             <!-- Sofrware testing -->
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -121,7 +121,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Тестирование программного обеспечения (Software Testing)"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -130,7 +130,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ST"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
             <!-- Sofrware quality  Качество программного о-->
@@ -140,7 +140,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -151,7 +151,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Качество программного обеспечения (Software quality)"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -160,7 +160,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/SQ"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
             <!--Баг-->
@@ -170,7 +170,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -181,7 +181,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Баг / Дефект"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -190,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/bug"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
             <!--Верификация-->
@@ -200,7 +200,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -211,7 +211,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Верификация"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -220,7 +220,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/verification_text"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
             <!--Валидация-->
@@ -230,7 +230,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -241,7 +241,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Валидация"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -250,7 +250,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/validation_text"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
             <!--Other -->
@@ -260,7 +260,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp"
                 >
@@ -273,7 +273,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Встречается и такое..."
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -282,7 +282,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/verivication_validation_other"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
             <!--Цели Тестирования-->
@@ -292,7 +292,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp"
                 android:layout_marginBottom="15dp"
@@ -306,7 +306,7 @@
                     android:fontFamily="@font/swfont"
                     android:text="Цели тестирования"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
@@ -315,7 +315,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/tg_text"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
 

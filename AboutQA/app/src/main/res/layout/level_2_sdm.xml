@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"><![CDATA[
+
+    />
+
+    ]]>
 
     <ImageView
         android:id="@+id/level_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/background_level_1"
+        app:srcCompat="@drawable/background_level_sdm"
         android:scaleType="centerCrop"/>
 
     <ScrollView
@@ -28,119 +32,111 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="35dp"
-                android:background="@drawable/btn_stroke_press_border_blue"
-                android:fontFamily="@font/swfont"
-                android:paddingBottom="10px"
-                android:text="back"
-                android:textColor="@color/yellow"
+                android:background="@drawable/btn_back"
+                android:fontFamily="@font/swfontcirylic"
+                android:paddingBottom="5px"
+                android:text="Назад"
+                android:textColor="@color/bluemenu"
                 android:textSize="17sp" />
 
-            <!-- QA -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/qa_title"
+                    android:id="@+id/sdm"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:fontFamily="@font/swfontcirylic"
-                    android:text="Жизненный цикл Тестирования"
+                    android:text="Модель разработки ПО (Soft ware Development Model, SDM)"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
-                    android:textSize="14dp" />
+                    android:textColor="@color/dark_blue_levels_borders"
+                    android:textSize="18dp" />
 
                 <TextView
                     android:id="@+id/qa_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/QA"
+                    android:text="@string/sdm"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:typeface="sans" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:text="@string/QA_2"
-                    android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1" />
+
 
             </LinearLayout>
-            <!--  QC  -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/qc_title"
+                    android:id="@+id/sdm_understanding"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Контроль качества (quality Control - qC)"
+                    android:text="Для чего понимать SDM?"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
-                    android:id="@+id/qc_text"
+                    android:id="@+id/test_plan_text"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-
-                    android:text="@string/QC"
+                    android:layout_height="match_parent"
+                    android:text="@string/sdm_understanding"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
+
             </LinearLayout>
-            <!-- Sofrware testing -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/st_title"
+                    android:id="@+id/moderl_waterfall"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Тестирование программного обеспечения (Software Testing)"
+                    android:text="Waterfall / Водопадная модель"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
                     android:id="@+id/st_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ST"
+                    android:text="@string/watrefall"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
-            <!-- Sofrware quality  Качество программного о-->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
@@ -149,181 +145,159 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Качество программного обеспечения (Software quality)"
+                    android:text="Итерационная инкрементальная модель"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/agile_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iterativemodel"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_levels_borders"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_level_borders"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/agile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/swfont"
+                    android:text="Гибкая разработка/ Agile"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
                     android:id="@+id/sq_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/SQ"
+                    android:text="@string/agile_text"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
-            <!--Баг-->
+            <!--Сравнение моделей-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/bug_title"
+                    android:id="@+id/models"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Баг / Дефект"
+                    android:text="Cравнение моделей"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
-                    android:id="@+id/bug_text"
+                    android:id="@+id/sdm_comparsion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/bug"
+                    android:text="@string/sdm_comparison_text"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
-            <!--Верификация-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/veriviction"
+                    android:id="@+id/models2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Верификация"
+                    android:text="Cравнение моделей"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
-                    android:id="@+id/verification_text"
+                    android:id="@+id/sdm_comparsion2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/verification_text"
+                    android:text="@string/sdm_comparison_text_2"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
-            <!--Валидация-->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
+                android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:id="@+id/validation"
+                    android:id="@+id/models3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/swfont"
-                    android:text="Валидация"
+                    android:text="Cравнение моделей"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
 
                 <TextView
-                    android:id="@+id/validation_text"
+                    android:id="@+id/sdm_comparsion3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/validation_text"
+                    android:text="@string/sdm_comparison_text_3"
                     android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
+                    android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
-            <!--Other -->
-            <LinearLayout
-                android:layout_width="match_parent"
+
+            <Button
+                android:id="@+id/button_back_from_level_2"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
-                android:orientation="vertical"
-                android:padding="10dp"
-                >
-
-
-                <TextView
-                    android:id="@+id/othe"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/swfont"
-                    android:text="Встречается и такое..."
-                    android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
-                    android:textSize="14dp" />
-
-                <TextView
-                    android:id="@+id/other"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/verivication_validation_other"
-                    android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
-                    android:textSize="14dp" />
-            </LinearLayout>
-            <!--Цели Тестирования-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:background="@drawable/btn_continue_level_1"
-                android:orientation="vertical"
-                android:padding="10dp"
-                android:layout_marginBottom="15dp"
-                >
-
-
-                <TextView
-                    android:id="@+id/testing_goals"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/swfont"
-                    android:text="Цели тестирования"
-                    android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
-                    android:textSize="14dp" />
-
-                <TextView
-                    android:id="@+id/testing_goals_text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/tg_text"
-                    android:textAlignment="center"
-                    android:textColor="@color/dark_blue_level_1"
-                    android:textSize="14dp" />
-            </LinearLayout>
-
-
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_back"
+                android:fontFamily="@font/swfontcirylic"
+                android:paddingBottom="5px"
+                android:layout_marginBottom="10dp"
+                android:text="@string/back"
+                android:textColor="@color/bluemenu"
+                android:textSize="17sp" />
         </LinearLayout>
+
+
+
+
+
     </ScrollView>
-
-
 </RelativeLayout>
 
 
