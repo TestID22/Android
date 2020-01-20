@@ -52,22 +52,6 @@ public class Levels extends AppCompatActivity {
 
         //Кнопка выбора перовго уровня - конец
 
-        //Кнопка выбора sql - начало
-        TextView level_sql = (TextView)findViewById(R.id.sql);
-        level_sql.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    Intent intent = new Intent(Levels.this, Level_sql.class);
-                    startActivity(intent);
-                    finish();
-                }catch (Exception e){
-
-                }
-            }
-        });
-
-
         //Кнопка выбора тестовая документация - начало
         TextView level_testDocumentation = (TextView)findViewById(R.id.testDocumentation);
         level_testDocumentation.setOnClickListener(new View.OnClickListener() {
@@ -90,7 +74,7 @@ public class Levels extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Levels.this, level_sdm.class);
+                    Intent intent = new Intent(Levels.this, Level_sdm.class);
                     startActivity(intent);
                     finish();
                 }catch (Exception e){
@@ -116,8 +100,25 @@ public class Levels extends AppCompatActivity {
         });
         //testing lyfe cycle - end
 
+        //Типы Тестирования - Start
+        TextView level_test_types = (TextView)findViewById(R.id.testing_types);
+        level_test_types.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, Level_test_types.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+        //Типы Тестирования - end
 
     }
+
+
 
 
 

@@ -53,7 +53,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="29dp"
                     android:fontFamily="@font/swfontcirylic"
-                    android:text="Тестовые Артефакты"
+                    android:text="Типы Тестирования"
                     android:textAlignment="center"
                     android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="18dp" />
@@ -196,7 +196,6 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginBottom="15dp"
                 android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
                 android:padding="10dp">

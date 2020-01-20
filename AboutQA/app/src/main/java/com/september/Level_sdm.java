@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class level_sdm extends AppCompatActivity {
+public class Level_sdm extends AppCompatActivity {
     //Создание диалогово окна.
     Dialog dialog;
 
@@ -27,7 +27,7 @@ public class level_sdm extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(level_sdm.this, Levels.class);
+                Intent intent = new Intent(Level_sdm.this, Levels.class);
                 startActivity(intent);
                 finish();
             }
@@ -37,7 +37,7 @@ public class level_sdm extends AppCompatActivity {
         back2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(level_sdm.this, Levels.class);
+                Intent intent = new Intent(Level_sdm.this, Levels.class);
                 startActivity(intent);
                 finish();
             }
@@ -48,7 +48,7 @@ public class level_sdm extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         try{
-            Intent intent = new Intent(level_sdm.this, Levels.class);
+            Intent intent = new Intent(Level_sdm.this, Levels.class);
             startActivity(intent);
             finish();
         }catch (Exception e){

@@ -58,7 +58,7 @@
                     <LinearLayout
                         android:id="@+id/line1"
                         android:layout_width="wrap_content"
-                        android:layout_height="74dp"
+                        android:layout_height="wrap_content"
                         android:orientation="vertical"
                         >
 
@@ -68,7 +68,6 @@
                             android:layout_height="50dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
-                            android:paddingBottom="2dp"
                             android:background="@drawable/btn_press_main_menu"
                             android:fontFamily="@font/swfontcirylic"
                             android:gravity="center"
@@ -77,49 +76,13 @@
                             android:textSize="22dp"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/textView6"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="@font/swfont"
-                            android:gravity="center"
-                            android:text="qa, qC, Качество"
-                            android:textColor="@color/yellow"
-                            android:textSize="15dp"
-                            android:textStyle="" />
-
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/line2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="10dp"
-                        android:gravity="center"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textViewTestBasics"
-                            android:layout_width="237dp"
-                            android:layout_height="match_parent"
-                            android:background="@drawable/style_btn_stroke_yellow"
-                            android:fontFamily="@font/swfont"
-                            android:gravity="center"
-                            android:paddingBottom="6px"
-                            android:text="Тест по основам"
-                            android:textColor="@color/yellow"
-                            android:textSize="19dp" />
-
-                    </LinearLayout>
-
-
 
                     <LinearLayout
                         android:id="@+id/line4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
+                        android:layout_marginTop="10dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -198,16 +161,16 @@
                         android:layout_gravity="center">
 
                         <TextView
-                            android:id="@+id/sql"
+                            android:id="@+id/testing_types"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginRight="10dp"
                             android:layout_marginLeft="10dp"
                             android:background="@drawable/btn_press_main_menu"
-                            android:fontFamily="@font/swfont"
+                            android:fontFamily="@font/swfontcirylic"
                             android:gravity="center"
                             android:paddingBottom="6px"
-                            android:text="5.SqL"
+                            android:text="5.Типы и Виды Тестирования"
                             android:textColor="@color/yellow"
                             android:textSize="24dp"
                             android:textStyle="bold" />
@@ -232,7 +195,7 @@
                             android:fontFamily="@font/swfont"
                             android:gravity="center"
                             android:paddingBottom="6px"
-                            android:text="5.SqL JAvA and etc."
+                            android:text="6.SqL JAvA and etc."
                             android:textColor="@color/yellow"
                             android:textSize="24dp"
                             android:textStyle="bold" />
