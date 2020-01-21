@@ -101,8 +101,8 @@ public class Levels extends AppCompatActivity {
         //testing lyfe cycle - end
 
         //Типы Тестирования - Start
-        TextView level_test_types = (TextView)findViewById(R.id.testing_types);
-        level_test_types.setOnClickListener(new View.OnClickListener() {
+        TextView test_types = (TextView)findViewById(R.id.testing_types);
+        test_types.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
