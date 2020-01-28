@@ -10,7 +10,7 @@
         android:id="@+id/level_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/background_type_testing"
+
         android:scaleType="centerCrop"/>
 
     <ScrollView
@@ -95,6 +95,30 @@
                     android:textColor="@color/dark_blue_levels_borders"
                     android:textSize="14dp" />
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/style_level_borders"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/functional_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/functional_text_2"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_blue_levels_borders"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+
+
+
 
             <!--NotFunc-->
             <LinearLayout
@@ -130,9 +154,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
                 android:background="@drawable/style_level_borders"
                 android:orientation="vertical"
-                android:padding="10dp">
+                android:padding="10dp"
+                >
 
                 <TextView
                     android:id="@+id/change"
@@ -151,7 +177,8 @@
                     android:text="@string/change_test"
                     android:textAlignment="center"
                     android:textColor="@color/dark_blue_levels_borders"
-                    android:textSize="14dp" />
+                    android:textSize="14dp"
+                    />
             </LinearLayout>
 
         </LinearLayout>
