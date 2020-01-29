@@ -5,6 +5,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -36,9 +46,10 @@
                     android:id="@+id/buttonback"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/btn_press_main_menu"
-                    android:fontFamily="@font/swfontcirylic"
+                    android:fontFamily="@font/swfont"
                     android:text="@string/back"
                     android:textColor="@color/yellow"
                     android:textSize="17sp" />
@@ -87,14 +98,14 @@
 
                         <TextView
                             android:id="@+id/level_sdm"
-                            android:layout_width="333dp"
+                            android:layout_width="327dp"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="10dp"
                             android:layout_marginRight="10dp"
-                            android:padding="6dp"
                             android:background="@drawable/btn_press_main_menu"
                             android:fontFamily="@font/swfontcirylic"
                             android:gravity="center"
+                            android:padding="6dp"
                             android:paddingBottom="6px"
                             android:text="2.Модели разаботки ПО (SDM)"
                             android:textColor="@color/yellow"
@@ -176,7 +187,7 @@
                             android:textStyle="bold" />
 
                     </LinearLayout>
-
+                    <!--SQL-->
                     <LinearLayout
                         android:id="@+id/line7"
                         android:layout_width="match_parent"
@@ -186,16 +197,67 @@
                         android:layout_gravity="center">
 
                         <TextView
-                            android:id="@+id/textView7"
+                            android:id="@+id/level_sql"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginRight="10dp"
                             android:layout_marginLeft="10dp"
-                            android:background="@drawable/style_btn_stroke_yellow"
+                            android:background="@drawable/btn_press_main_menu"
                             android:fontFamily="@font/swfont"
                             android:gravity="center"
                             android:paddingBottom="6px"
-                            android:text="6.SqL JAvA and etc."
+                            android:text="6.SqL"
+                            android:textColor="@color/yellow"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <!--java-->
+                    <LinearLayout
+                        android:id="@+id/level_java"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/level_java_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/btn_press_main_menu"
+                            android:fontFamily="@font/swfont"
+                            android:gravity="center"
+                            android:paddingBottom="6px"
+                            android:text="7. Java"
+                            android:textColor="@color/yellow"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <!-- About -->
+                    <LinearLayout
+                        android:id="@+id/level_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/level_about_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/btn_press_main_menu"
+                            android:fontFamily="@font/swfont"
+                            android:gravity="center"
+                            android:paddingBottom="6px"
+                            android:text="О приложениии"
                             android:textColor="@color/yellow"
                             android:textSize="24dp"
                             android:textStyle="bold" />

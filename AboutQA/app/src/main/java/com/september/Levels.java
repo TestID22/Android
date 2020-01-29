@@ -116,6 +116,20 @@ public class Levels extends AppCompatActivity {
         });
         //Типы Тестирования - end
 
+        TextView sql = (TextView)findViewById(R.id.level_sql);
+        sql.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, Level_sql.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
     }
 
 
