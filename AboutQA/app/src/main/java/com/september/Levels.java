@@ -130,6 +130,20 @@ public class Levels extends AppCompatActivity {
             }
         });
 
+        TextView test_design = (TextView)findViewById(R.id.test_design_2);
+        test_design.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, Level_test_design.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
     }
 
 
