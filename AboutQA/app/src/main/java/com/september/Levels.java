@@ -144,6 +144,22 @@ public class Levels extends AppCompatActivity {
             }
         });
 
+
+
+        TextView ver_val = (TextView)findViewById(R.id.ver_val);
+        ver_val.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    Intent intent = new Intent(Levels.this, Level_test_design.class);
+                    startActivity(intent);
+                    finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
     }
 
 

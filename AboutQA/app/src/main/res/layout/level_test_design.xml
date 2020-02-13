@@ -14,7 +14,7 @@
         android:id="@+id/level_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/background_for_test_level_2"
+        app:srcCompat="@drawable/backgrount_for_test_level"
         android:scaleType="centerCrop"/>
 
     <ScrollView

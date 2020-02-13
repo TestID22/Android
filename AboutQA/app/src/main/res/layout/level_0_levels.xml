@@ -211,6 +211,30 @@
                             android:textStyle="bold" />
 
                     </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/ver_val"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/ver_val_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/btn_press_main_menu"
+                            android:fontFamily="@font/swfontcirylic"
+                            android:gravity="center"
+                            android:paddingBottom="6px"
+                            android:text="Верификация vs Валидация"
+                            android:textColor="@color/yellow"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
                     <!--SQL-->
                     <LinearLayout
                         android:id="@+id/line7"
@@ -262,6 +286,7 @@
                             android:textStyle="bold" />
 
                     </LinearLayout>
+
                     <!-- About -->
                     <LinearLayout
                         android:id="@+id/level_about"
