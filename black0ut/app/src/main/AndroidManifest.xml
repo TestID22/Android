@@ -19,7 +19,8 @@
         </intent-filter>
         </activity>
 
-        <activity android:name=".Menu">
+        <activity android:name=".Menu"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
