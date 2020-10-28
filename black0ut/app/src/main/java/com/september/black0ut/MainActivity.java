@@ -19,11 +19,12 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();//hide Action Bar убрать шапку апликухи
 
         //Find button inside
-        Button insideButton = (Button)findViewById(R.id.button_inside);
+        final Button insideButton = (Button)findViewById(R.id.button_inside);
         insideButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try{
+                    insideButton.setBackgroundResource(R.drawable.enter_btn_press);
                     Intent intent = new Intent(MainActivity.this, Menu.class);
                     startActivity(intent);
                     finish();

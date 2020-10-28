@@ -38,7 +38,8 @@ public class Menu extends AppCompatActivity {
         scanButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                textView.setText("22");
+                scanButton.setBackgroundResource(R.drawable.scan_btn_press); //change button state onClick
+                textView.setText("Хакаем сетку...");
             }
         });
 
