@@ -17,10 +17,6 @@
         android:gravity="center|right"
         android:visibility="visible">
 
-
-
-
-
     </RelativeLayout>
 
     <RelativeLayout

@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@color/black"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".Menu"
     tools:visibility="visible">
 
     <ScrollView
@@ -28,12 +28,13 @@
             android:gravity="bottom">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/scanButton"
                 android:layout_width="match_parent"
                 android:layout_height="72dp"
                 android:layout_marginBottom="89dp"
                 android:background="@drawable/scan_btn"
-                />
+                android:clickable="true"
+                android:onClick="scanNet" />
         </LinearLayout>
 
         <LinearLayout
